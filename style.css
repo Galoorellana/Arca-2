@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 4em;
+    height: 6em;
+    color: black;
+}
+.logo{
+    font-size: 2em;
+    font-weight: 800;
+    position: relative;
+    right: 2em;
+}
+
+ul{
+    margin-right: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1.2em;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+li a:hover{
+    border-bottom: 0.1em solid black;
+}
+.field-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 0.3em;
+    border-color: black;
+    border-radius: 1em;
+    border: 0.2em solid #fff;
+    
+}
+.field-search input{
+    border-radius: 1em;
+    padding: 0.3em 1em;
+    border: 0.2em solid #fff;
+    border-color: black;
+    outline: none;
+    position: relative;
+    right: 40px;
+   
+}
+.field-search img{
+    margin-top: 0.2em;
+    cursor: pointer;
+    background: black;
+    border-radius: 0,3em;
+    height: 30px;
+    position: relative;
+    right: 40px;
+}
+
+.container .content-1 {
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container .content-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: center;
+}
+.container .content-1 h1{
+    font-size: 1.5em;
+    color: white;
+    padding-left: 6em;
+    
+}
+.container .content-2{
+    justify-content: center;
+    align-items: center;
+}
+.container .content-2 h1 {
+    display: flex;
+    font-size: 1.5em;
+    color: #e2294b;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+
+
+}
+.powerbi iframe{
+    display: block;
+    width: 80%;
+    height: 750px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+    row-gap: 1em;
+}
+.container .footer-content{
+    font-size: 1.5em;
+    height: 350px;
+    background-color: #701f19;
+    margin-top: 10px;
+    width: 100%;
+}
+.container .footer-main h5{
+    display: flex;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.container .footer-main p{
+    display: flex;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.container .footer-main .social a img{
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 2em;
+    cursor: pointer;
+    position: relative;
+    left: 260px;
+    bottom: -50px;
+    
+}
+.container .footer-main .footer-icon a img{
+    float: right;
+    position: relative;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
